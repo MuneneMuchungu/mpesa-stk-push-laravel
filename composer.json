@@ -1,0 +1,23 @@
+{
+    "name": "grishonmunene/mpesa-stk",
+    "description": "M-Pesa STK Push integration for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GrishonMunene\\MpesaStk\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GrishonMunene\\MpesaStk\\MpesaStkServiceProvider"
+            ]
+        }
+    }
+}
